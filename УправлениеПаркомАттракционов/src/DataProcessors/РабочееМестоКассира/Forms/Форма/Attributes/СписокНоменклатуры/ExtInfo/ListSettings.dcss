@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core">
 	<filter>
-		<item xsi:type="FilterItemComparison">
-			<left xsi:type="dcscor:Field">Номенклатура.ВидНоменклатуры</left>
-			<comparisonType>Equal</comparisonType>
-			<right xsi:type="dcscor:DesignTimeValue">Перечисление.ВидНоменклатуры.ПосещениеАттракциона</right>
-		</item>
 		<viewMode>Normal</viewMode>
-		<userSettingID>02b4c787-d937-4bba-bb52-dbb07b355b99</userSettingID>
+		<userSettingID>731535f6-70b0-42b9-b9d3-018a9300d4d0</userSettingID>
 	</filter>
 	<order>
 		<viewMode>Normal</viewMode>
-		<userSettingID>4569b673-c7dd-4276-ae0a-6fa1f8778b96</userSettingID>
+		<userSettingID>d371d0f4-aa03-4830-98de-6f64b507531d</userSettingID>
 	</order>
 	<conditionalAppearance>
 		<viewMode>Normal</viewMode>
-		<userSettingID>2e8c013b-39d4-44c3-a62b-0d6fa948cd50</userSettingID>
+		<userSettingID>2eda7d0d-5251-4cad-8098-4719ad24de13</userSettingID>
 	</conditionalAppearance>
 	<itemsViewMode>Normal</itemsViewMode>
-	<itemsUserSettingID>f5c77b7a-b6b6-4d89-a148-6cee8c74b2e8</itemsUserSettingID>
+	<itemsUserSettingID>b10c91dc-a118-4a5f-bd01-06ae334cf82d</itemsUserSettingID>
 </Settings>
