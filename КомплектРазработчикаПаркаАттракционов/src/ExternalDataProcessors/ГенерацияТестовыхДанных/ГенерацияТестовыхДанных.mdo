@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfd5a5bc-0fc7-4267-8a9c-4e1e54fe83c8">
+  <producedTypes>
+    <objectType typeId="ad435c42-54cc-4c06-9199-4dbd733bc92a" valueTypeId="754a59cd-e4ad-435c-a5d0-337bf4d993b1"/>
+  </producedTypes>
+  <name>ГенерацияТестовыхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генерация тестовых данных</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="5afe7bb8-39af-40bb-a7ac-1b2a299a1cf9"/>
+  <defaultForm>ExternalDataProcessor.ГенерацияТестовыхДанных.Form.Форма</defaultForm>
+  <attributes uuid="19d02a6b-b6d6-4eff-a0df-673364623b45">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="b536d93b-b86b-4a6b-9b43-1dbecc923018">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="8615cb0f-baa2-4ed8-b527-62d2b01c70d7">
+    <name>СлучайныеФИО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Случайные ФИО</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:ExternalDataProcessor>
