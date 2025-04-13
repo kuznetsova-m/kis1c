@@ -27,6 +27,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УстановкаЦенНоменклатуры.Form.ФормаДокумента</defaultObjectForm>
   <realTimePosting>Deny</realTimePosting>
   <registerRecords>InformationRegister.ЦеныНоменклатуры</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
@@ -63,6 +64,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="0fcc785f-80b1-4db6-b71f-a27fcd3d802e">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5838550e-4118-46e1-ab02-5092a8200241">
+    <name>ФормаЗагрузкиИзФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка цен из файла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="1daf533e-34f0-495f-b723-c2005f0a442c">
     <producedTypes>
       <objectType typeId="6aceb7a5-4129-4223-8fb3-fcea5d826191" valueTypeId="9d7a563e-40a9-4422-8102-45f348c84d2c"/>
